@@ -22,7 +22,7 @@ Aplicación en Java que permite convertir montos entre diferentes monedas, utili
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/conversor-monedas.git
+git clone [https://github.com/Eduar-bc/Conversor-monedas](https://github.com/Eduar-bc/Conversor-monedas)
 ```
 
 2. Abre el proyecto en IntelliJ o tu editor preferido.
