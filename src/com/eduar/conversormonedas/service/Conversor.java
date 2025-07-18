@@ -15,6 +15,9 @@ public class Conversor {
     private static final String API_KEY = "";
 
     public static void convertir(String base, String destino, double cantidad){
+        if (API_KEY == null || API_KEY.isBlank()) {
+            throw new IllegalStateException("API_KEY no configurada. Por favor agrega tu clave en la variable API_KEY.");
+        }
         String urlStr = "https://v6.exchangerate-api.com/v6/"+ API_KEY +"/pair/"+base+"/"+destino+"/"+cantidad;
 
         try {
